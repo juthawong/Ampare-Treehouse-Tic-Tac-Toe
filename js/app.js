@@ -58,7 +58,7 @@
     $('li.box').css('background-image', 'none'); //Reset background-image
     $('li.box').removeClass('box-filled-2'); //Remove X Filled
     $('li.box').removeClass('box-filled-1'); //Remove O Filled
-    player  = true;
+    player1  = true;
   });
   $('.box').click(function(){
     //When  Click on XO Board
